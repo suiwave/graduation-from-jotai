@@ -1,8 +1,8 @@
 import { Routes, Route, RouteObject, useNavigate } from 'react-router-dom';
-import Index from '@/pages/register/Index';
-import InputPersonalInfo from '@/pages/register/InputPersonalInfo';
 import { useUserForm } from '@/hooks/useUserForm';
 import { UserProfile } from '@/schemas/user';
+import Index from '@/pages/register/Index';
+import InputPersonalInfo from '@/pages/register/InputPersonalInfo';
 import InputContact from '@/pages/register/InputContact';
 import InputAddress from '@/pages/register/InputAddress';
 import ConfirmUserInfo from '@/pages/register/ConfirmUserInfo';
